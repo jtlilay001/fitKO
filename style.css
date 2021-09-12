@@ -1,0 +1,23 @@
+/* Following style sheet is used to style the webpage of FitKO*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.features {
+    text-align: center;
+}
+
+.icon {
+    width: 25%;
+}

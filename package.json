@@ -1,0 +1,17 @@
+{
+  "name": "FitKO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.39.2"
+  }
+}
