@@ -1,0 +1,10 @@
+.header {
+    width: 100%;
+    height: 80px;
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+}

@@ -7,67 +7,149 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./navigational-bar.css">
+    <link rel="stylesheet" href="./hero-banner.css">
     <link rel="stylesheet" href="./font-style.css">
     <link rel="stylesheet" href="./grid-layout.css"> 
+    <link rel="stylesheet" href="./button-style.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!--PAGE CONTAINER-->
     <div class="container">
-        <div class="row">
+        <div class="row header">
             <div class="col span-2">
-                <h3 class="logo">FitKO</h3>
+                <h3 class="logo">
+                    <span class="logo-letter">F</span>
+                    <span class="logo-letter">i</span>
+                    <span class="logo-letter">T</span>
+                    <span class="logo-letter">K</span>
+                    <span class="logo-letter">O</span>
+                </h3>
             </div>
+            <!--NAVIGATIONAL BAR-->
             <div class="col span-10">
                 <ul class="navbar">
-                    <li class="nav-item">Home</li>
-                    <li class="nav-item">About Us</li>
-                    <li class="nav-item">Download App</li>
-                    <li class="nav-item">Shop</li>
-                    <li class="nav-item">Contact</li>
+                    <a href="#"><li class="nav-item">Home</li></a>
+                    <a href="#"><li class="nav-item">About Us</li></a>
+                    <a href="#"><li class="nav-item">Download App</li></a>
+                    <a href="#"><li class="nav-item">Shop</li></a>
+                    <a href="#"><li class="nav-item">Contact</li></a>
                 </ul>
             </div>
         </div>
 
-        <!--HERO BANNER-->
+        <!--HERO BANNER BLOCK-->
         <div class="row">
-            <img src="./images/pexels-julia-larson-6456222.jpg" alt="">
+            <div class="hero-banner">
+                <img src="./images/pexels-julia-larson-6456222.jpg" alt="">
+                <h1 class="hero-title">
+                    <span>Reinventing</span>
+                    <span>Exercise</span>
+                </h1>
+            </div>
         </div>
         
-        <!--FEATURES-->
-        <div class="row features">
-            <h2 class="features-header">Revolutionize</h2>
-            <p class="featues-content">FitKO is here to reinvent the fitness industry and the way people exercise. <br>We want to take you from the couch to the coach.</p>
+        <!--SECTION BLOCK-->
+        <div class="section-block">
+            <h2 class="section-title">Revolutionize</h2>
+            <p class="section-description">FitKO is here to reinvent the fitness industry and the way people exercise. <br>We want to take you from the couch to the coach.</p>
+        </div>
+
+        <!--FEATURES BLOCK-->
+        <div class="row">
+            <div class="col span-3">
+                <h4 class="features-title">HIIT</h4>
+                <p class="features-description">Burn more calories in half the time.</p>
+            </div>
+            <div class="col span-3">
+                <h4 class="features-title">Save Time</h4>
+                <p class="features-description">Spend less time worrying and save time.</p>
+            </div>
+            <div class="col span-3">
+                <h4 class="features-title">Interactive</h4>
+                <p class="features-description">Highly engaging and keeps you motivated.</p>
+            </div>
+            <div class="col span-3">
+                <h4 class="features-title">Fun</h4>
+                <p class="features-description">Exercise will no longer feel like a chore.</p>
+            </div>
+        </div>
+
+        <!--SECTION BLOCK-->
+        <div class="row description">
+            <div class="col span-6">
+                <div class="section-block">
+                    <h2 class="section-title">Section Title</h2>
+                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="primary-button-md">Learn More</button>
+                </div>
+            </div>
+            <div class="col span-6">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <!--DESCRIPTION BLOCK-->
+        <div class="row">
+            <div class="col span-6">
+                <img src="" alt="">
+            </div>
+            <div class="col span-6">
+                <div class="section-block">
+                    <h2 class="section-title">Section Title</h2>
+                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <button class="primary-button-md">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!--SECTION BLOCK-->
+        <div class="section-block">
+            <h2 class="section-title">Progress Tracking</h2>
+            <p class="section-description">With our application, you can access hundreds of workouts and customize them <br>accordingly. Track your BMI all at your fingertips.</p>
+        </div>
+
+        <!--APPLICATION BLOCK -->
+        <div class="row">
+            <div class="col span-6">
+                <div class="section-block">
+                    <h2 class="section-title">Section Title</h2>
+                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <button class="primary-button-md">Learn More</button>
+                </div>
+            </div>
+            <div class="col span-6">
+                <div class="phone">
+                    <span class="phone-cover"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="section-block">
+                <h2 class="section-title">Online Shop</h2>
+                <p class="section-description">You can also support us by buying appareal exclusively at FitKO. Sizes will vary depending on individuals stature and body shape.</p>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col span-3">
-                <img src="./images/icons/dumbbell-solid.svg" alt="" class="icon">
-            </div>
-            <div class="col span-3">
-                <img src="./images/icons/stopwatch-solid.svg" alt="" class="icon">
-            </div>
-            <div class="col span-3">
-                <img src="./images/icons/running-solid.svg" alt="" class="icon">
-            </div>
-            <div class="col span-3">
-                <img src="./images/icons/mobile-alt-solid.svg" alt="" class="icon">
-            </div>
+            <div class="col span-4"></div>
+            <div class="col span-4"></div>
+            <div class="col span-4"></div>
+        </div>
+        <div class="row">
+            <div class="col span-4"></div>
+            <div class="col span-4"></div>
+            <div class="col span-4"></div>
         </div>
 
-        <div class="row">
-                <h1>Test HTML Text</h1>
-            </div>
+        <div class="footer">
+
         </div>
     </div>
-        
-
-       
-
-    
-        
-
-
-
     <script src="script.js"></script>
 </body>
-</html>
+</html> 

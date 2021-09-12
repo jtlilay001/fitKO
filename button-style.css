@@ -1,0 +1,15 @@
+button {
+    color: #FFF;
+    background-color: #FFA22A;
+    border-style: none;
+}
+
+.primary-button-lg {
+    width: 260px;
+    height: 60px;
+}
+
+.primary-button-md {
+    width: 160.69px;
+    height: 37.08px;
+}
