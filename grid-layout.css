@@ -8,65 +8,68 @@
 
 .row {
     width: 100%;
-    clear: both; 
-    padding: 0px; 
     margin: 0px;
 }
 
+.row::after {
+    content: "";
+    clear: both; 
+    display: table;
+}
 .col {
     width: 80px;
     margin: 0;
     float: left;
 }
 
-.span-2:first-child, .span-3:first-child, .span-4:first-child, .span-5:first-child, .span-6:first-child, .span-7:first-child, .span-8:first-child, 
-.span-9:first-child, .span-10:first-child, .span-11:first-child, .span-12:first-child {margin-left: 0;}
+/*.span-2:first-child, .span-3:first-child, .span-4:first-child, .span-5:first-child, .span-6:first-child, .span-7:first-child, .span-8:first-child, 
+.span-9:first-child, .span-10:first-child, .span-11:first-child, .span-12:first-child {margin-left: 0;} */
 
 .span-2{ 
-    width: 160px;
+    width: 145px;
     margin-left: 15px;
 }
 .span-3{ 
-    width: 240px;
+    width: 225px;
     margin-left: 15px;
 }
 
 .span-4 {
-    width: 320px;
+    width: 305px;
     margin-left: 15px;
 }
 
 .span-5 {
-    width: 400px;
+    width: 385px;
     margin-left: 15px;
 }
 
 .span-6 {
-    width: 480px;
+    width: 465px;
     margin-left: 15px;
 }
 
 .span-7 {
-    width: 560px;
+    width: 545px;
     margin-left: 15px;
 }
 
 .span-8 {
-    width: 640px;
+    width: 625px;
     margin-left: 15px;
 }
 
 .span-9 {
-    width: 720px;
+    width: 705px;
     margin-left: 15px;
 }
 
 .span-10 {
-    width: 800px;
+    width: 785px;
     margin-left: 15px;
 }
 
 .span-11 {
-    width: 880px;
+    width: 865px;
     margin-left: 15px;
 }

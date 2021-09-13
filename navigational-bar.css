@@ -1,6 +1,21 @@
+/* HEADER */
 .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
-    height: 80px;
+}
+
+/* NAVIGATIONAL BAR */
+.navbar {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar a:hover {
+    color: #FFA22A;
+    transition-duration: 0.2s;
 }
 
 .nav-item {

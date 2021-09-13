@@ -62,3 +62,56 @@ a {
     margin-top: -296.625px;
     border-radius: 16px;
 }
+
+
+/* SECTION LAYOUT */
+.section-block {
+    padding-top: 65px;
+    padding-bottom: 32.5px;
+}
+
+
+
+
+/* ICON LAYOUT */
+.icon-block {
+    text-align: center;
+}
+
+.icon {
+    color: #FFA22A;
+}
+
+
+/* ABOUT */
+.about {
+    padding-top: 130px;
+}
+
+/* SHOPPING CARD */
+.card-section {
+    margin-bottom: 30px;
+}
+
+/* FOOTER LAYOUT */
+.footer {
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+
+.footer h1 span:nth-child(2) {
+    color: #FFA22A;
+    text-transform: lowercase;
+}
+
+.footer h1 span {
+    margin-right: -2px;
+}
+.footer li {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 12px;
+
+}
+

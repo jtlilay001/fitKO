@@ -40,18 +40,27 @@ p {
 }
 
 /* HERO FONT STYLE */
-.hero-title {
+.hero-title, .hero-sub-title {
     letter-spacing: 5px;
+    color: #FFF;
 }
 .hero-title span:nth-child(2) {
     color: #FFA22A;
 }
 
+/* LOGO FONT */
 .logo {
     font-weight: 400;
+    text-align: center;
 }
+
+.logo-letter {
+    margin-right: -2px;
+}
+
 .logo-letter:nth-child(2) {
     color: #FFA22A;
     text-transform: lowercase;
 }
+
 
