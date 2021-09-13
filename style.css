@@ -28,6 +28,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+::selection {
+    background: #FFA22A;
+    color: #FFF;
+}
+
 .features {
     text-align: center;
 }
