@@ -1,4 +1,9 @@
 /*SHOPPING CARD*/
+/* SHOPPING CARD */
+.card-section {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 
 .shopping-card {
     padding: 15px 15px;

@@ -4,6 +4,7 @@
 }
 
 body {
+    background: #fffafa;    ;
     width: 95%;
     max-width: 1140px;
     margin: 0 auto;
@@ -12,6 +13,8 @@ body {
 
 img {
     max-width: 100%;
+    width: 100%;
+    display: block;
 }
 
 ul {
@@ -75,6 +78,10 @@ a {
     padding-bottom: 32.5px;
 }
 
+.section-container-block {
+    margin-top: -35%;
+    margin-left: 6%;
+}
 
 /* ICON LAYOUT */
 .icon-block {
@@ -91,9 +98,8 @@ a {
     padding-top: 130px;
 }
 
-/* SHOPPING CARD */
-.card-section {
-    margin-bottom: 30px;
+.about-content {
+    text-align: left;
 }
 
 /* FOOTER LAYOUT */
@@ -117,6 +123,4 @@ a {
     display: block;
     margin-bottom: 12px;
 }
-
-
 
