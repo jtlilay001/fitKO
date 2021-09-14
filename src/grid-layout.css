@@ -1,4 +1,4 @@
-/* layout stylesheet for FitKO */
+/* page layout stylesheet for FitKO */
 
 .container {
     width: 100%;
@@ -17,69 +17,71 @@
     display: table;
 }
 .col {
-    width: 6.770833333%;
+    width: 7.01754386%;
     margin: 0;
     float: left;
 }
 
-/*.span-2:first-child, .span-3:first-child, .span-4:first-child, .span-5:first-child, .span-6:first-child, .span-7:first-child, .span-8:first-child, 
-.span-9:first-child, .span-10:first-child, .span-11:first-child, .span-12:first-child {margin-left: 0;} */
+.span-2:first-child, .span-3:first-child, .span-4:first-child, .span-5:first-child, .span-6:first-child, .span-7:first-child, .span-8:first-child, 
+.span-9:first-child, .span-10:first-child, .span-11:first-child, .span-12:first-child {margin-left: 0;} 
+
+
 
 .span-2{ 
     /*width: 145px;*/
-    width: 15.10416667%;
+    width: 15.35087719%;
     margin-left: 1.5625%;
 }
 .span-3{ 
     /*width: 225px;*/
-    width: 23.4375%;
+    width: 23.68421053%;
     margin-left: 1.5625%;
 }
 
 .span-4 {
     /*width: 305px;*/
-    width: 31.77083333%;
+    width: 32.01754386%;
     margin-left: 1.5625%;
 }
 
 .span-5 {
     /*width: 385px;*/
-    width: 40.10416667%;
+    width: 40.35087719%;
     margin-left: 1.5625%;
 }
 
 .span-6 {
     /*width: 465px;*/
-    width: 48.4375%;
+    width: 48.68421053%;
     margin-left: 1.5625%;
 }
 
 .span-7 {
     /*width: 545px;*/
-    width: 56.77083333%;
+    width: 57.01754386%;
     margin-left: 1.5625%;
 }
 
 .span-8 {
     /*width: 625px;*/
-    width: 65.10416667%;
+    width: 65.35087719%;
     margin-left: 1.5625%;
 }
 
 .span-9 {
     /*width: 705px;*/
-    width: 73.4375%;
+    width: 73.68421053%;
     margin-left: 1.5625%;
 }
 
 .span-10 {
     /*width: 785px;*/
-    width: 81.77083333%;
+    width: 82.01754386%;
     margin-left: 1.5625%;
 }
 
 .span-11 {
     /*width: 865px;*/
-    width: 90.10416667%;
+    width: 90.35087719%;
     margin-left: 1.5625%;
 }
