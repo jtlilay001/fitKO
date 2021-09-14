@@ -1,0 +1,80 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #2D3749;
+}
+
+h1, h2 {
+    letter-spacing: 0.378rem;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #2D3749;
+    opacity: 70%;
+}
+
+/* HERO FONT STYLE */
+.hero-title, .hero-sub-title {
+    letter-spacing: 5px;
+    color: #FFF;
+}
+.hero-title span:nth-child(2) {
+    color: #FFA22A;
+}
+
+/* LOGO FONT */
+.logo {
+    font-weight: 400;
+    text-align: center;
+}
+
+.logo-letter {
+    margin-right: -2px;
+}
+
+.logo-letter:nth-child(2) {
+    color: #FFA22A;
+    text-transform: lowercase;
+}
+
+
+/*SECTION NUMBER*/
+.section-number {
+    font-family: 'Teko', sans-serif;
+    font-size: 13.125rem;
+    color: #9EA3AE;
+    opacity: 15%;
+    position: relative;
+    margin-left: -250px;
+}

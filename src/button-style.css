@@ -1,0 +1,52 @@
+button {
+    color: #FFF;
+    background-color: #FFA22A;
+    border-style: none;
+}
+
+.primary-button-lg {
+    width: 260px;
+    height: 60px;
+}
+
+.primary-button-md {
+    width: 160.69px;
+    height: 37.08px;
+}
+
+.primary-button-sm {
+    width: 99.31px;
+    height: 22.92px;
+}
+
+
+.button { 
+    width: 6.25653rem; /* 99.31px/0.063rem*/
+    height: 1.44396rem; 
+    position: relative;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    width: 66.66666%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FFA22A;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    width: 33.3333%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #FFA22A;
+}
